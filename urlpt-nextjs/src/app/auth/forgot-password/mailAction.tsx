@@ -18,8 +18,7 @@ export async  function mailAction({ email }: { email: string },{ token }: { toke
     auth: {
       user: process.env.MAIL_USER, 
       pass: process.env.MAIL_PASSWORD 
-      // user: "erp@dev.technians.com",
-      // pass: "$8?fbtt0.ZSA"
+      
     },
    
   });
